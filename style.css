@@ -4,11 +4,11 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3.125em;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 1.875em;
 }
 
 .orange {
@@ -17,7 +17,7 @@ h2 {
 
 .flexible-container {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 6.25em;
 }
 
 .half-width {
@@ -33,9 +33,9 @@ h2 {
   text-decoration: none;
   color: white;
   background-image: linear-gradient(orange, tomato);
-  padding: 10px 40px;
+  padding: 0.625em 2.5em;
   font: bold;
-  border-radius: 5px;
+  border-radius: 0.3125em;
 }
 
 .top-banner {
@@ -59,18 +59,18 @@ h2 {
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
-  padding-left: 20px;
-  box-shadow: 10px 10px 40px gray;
+  padding-left: 1.25em;
+  box-shadow: 0.625em 0.625em 2.5em gray;
 }
 
 #experience-border1 {
-  border-left: 7px solid;
+  border-left: 0.4375em solid;
   border-image: linear-gradient(salmon, tomato);
   border-image-slice: 1;
 }
 
 #experience-border2 {
-  border-left: 7px solid;
+  border-left: 0.4375em solid;
   border-image: linear-gradient(blue, cyan);
   border-image-slice: 1;
 }
